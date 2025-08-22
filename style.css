@@ -34,7 +34,20 @@ main > p {
 .sidenav {
   background-color: lightblue;
   
+  display: grid;
+  justify-content: center;
+}
+
+.sidenav ul {
+  list-style: none;
   
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: max(20px, 5vh) 0;
+  position: sticky;
+  top: 0;
+  align-self: start;
 }
 
 footer {
